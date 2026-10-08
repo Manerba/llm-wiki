@@ -1,0 +1,42 @@
+# Wiki data and sources stay local, including generated navigation.
+/raw/
+/wiki/
+/index.md
+/log.md
+/benchmark/results/
+/quartz/content/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+*.env
+!*.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Obsidian session state
+.obsidian/workspace*
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.trash/
+
+# Runtime, dependencies, generated sites and caches
+/runtime/
+/novnc/
+*.AppImage
+*.appimage
+node_modules/
+public/
+.quartz-cache/
+.qmd/
+qmd-index/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.log
+*.pid
+*.tmp
+.DS_Store
